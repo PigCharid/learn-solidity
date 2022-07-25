@@ -1,0 +1,67 @@
+{
+	"id": "e3274f1aa5f2ce768f87d853b58444c4",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.15",
+	"solcLongVersion": "0.8.15+commit.e14f2714",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"chapter02/4testImport2.sol": {
+				"content": "// SPDX-License-Identifier:MIT\npragma solidity ^0.8;  \n//import {FatherImp as newname} from \"./4fatherImp.sol\";\n//import {outside as o} from \"./4fatherImp.sol\";  //按相对路径本地导入\n\n// function outside()pure returns(uint){\n//     return 1;\n// }\n// contract testImport3 is newname {\n   \n// }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"chapter02/4testImport2.sol": {
+				"ast": {
+					"absolutePath": "chapter02/4testImport2.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "31:21:0"
+						}
+					],
+					"src": "31:270:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

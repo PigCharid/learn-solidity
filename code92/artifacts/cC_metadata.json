@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "funA",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "funAB",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code92/2multipulExtend.sol": "cC"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code92/2multipulExtend.sol": {
+			"keccak256": "0x706e16bbb7563b24772534a88888f10b96d49d32adea1025ad07a19811d92259",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://67a45e8031f4b2f6008cf3cd2b29d54d2bd4146d47356106407b92b5bbdebaa7",
+				"dweb:/ipfs/QmTSrCTbDSTQw7RTY4PdwY7zME9EE53znN5hua8oiFgKWz"
+			]
+		}
+	},
+	"version": 1
+}

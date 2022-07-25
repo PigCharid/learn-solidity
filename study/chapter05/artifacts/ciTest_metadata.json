@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_decimals",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_reference",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_other",
+						"type": "address"
+					}
+				],
+				"name": "isBalanceTooHigh",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter04/6constantANDimmutable.sol": "ciTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter04/6constantANDimmutable.sol": {
+			"keccak256": "0x37ac7c90493c87c78263cff130cb0ed1a41218ad0a201120f57ec23d4f865bfe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e4167aed86b4e8ce5d09759a12e535eff77343f602646ed4edce59a9454bf4c",
+				"dweb:/ipfs/QmVK74UYAuNK7oLhSjyEtnYV2GuSan8bK8zohQtmU55wcx"
+			]
+		}
+	},
+	"version": 1
+}

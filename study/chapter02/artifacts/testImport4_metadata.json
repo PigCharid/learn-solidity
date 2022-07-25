@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter02/4testImport2.sol": "testImport4"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter02/4fatherImp.sol": {
+			"keccak256": "0x272a1e5fc50c8beaaf0a9a354c5257f11fd12f75fa000cf40251715c0d199efb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0509e3f530c122b217881855f2188a8fa55999748d1710ffb6f124d1cee6fd32",
+				"dweb:/ipfs/QmNjY3NsXEEJ7g9ejA4Mo2rAsLRBXp6FPGzXeAGMdVjXik"
+			]
+		},
+		"chapter02/4testImport2.sol": {
+			"keccak256": "0x41fa6ab95e9ab294cbf1a05a4f92fdeb16ad797d4a1f2c4d581c39f14cc5feac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2c4756920c5acc43e4ac95a21b9a0a2194870a109a4d63ac26833daab452704",
+				"dweb:/ipfs/QmefX3Us6oFGapiFXLTMzhBFJWjhWdvuFmzVZAUpwwu2H4"
+			]
+		}
+	},
+	"version": 1
+}

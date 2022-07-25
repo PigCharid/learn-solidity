@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getContractName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter02/9type3.sol": "type1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter02/9type3.sol": {
+			"keccak256": "0x4052fc731aa8d2ebaa843bd61ab2f59bc8a39ebd5af23d93bf6ffa4c7afdc625",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://650de8cf3a92ef5674a26d955e8686f92efeff4ba06d00daa718f3807462e6cf",
+				"dweb:/ipfs/QmdE1nQ7kX2gbBsAHyA7ANHre7qBEGcjtNtxzvG3Wr8FXL"
+			]
+		}
+	},
+	"version": 1
+}

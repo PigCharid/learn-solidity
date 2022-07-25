@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter10/extendWithConstructor.sol": "Derived1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter10/extendWithConstructor.sol": {
+			"keccak256": "0xf0ff31c55ff9c24ca9351b4cdb6aff55ebf7072f2bf3d8a7becac13e07e17233",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e00f198d1deece3ed46fa734c155bab36c18af826f360e3226bcd6b16532c810",
+				"dweb:/ipfs/QmeqxQM9PQkdbyaDwfUZ45751YpqFhPoabWzYVbeg68CnK"
+			]
+		}
+	},
+	"version": 1
+}

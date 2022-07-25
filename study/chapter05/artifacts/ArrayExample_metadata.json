@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "f",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter04/1innerfunc.sol": "ArrayExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter04/1innerfunc.sol": {
+			"keccak256": "0x42275a10725e41abc3124adfc89ac13ce789a2804850421caf3369fce2bf1a0a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ddb319f7b996b8b8c5199613458d4fa484994ac38e02ffc136f4d30a5c723f4",
+				"dweb:/ipfs/QmQc3bbUxiyfTinkV6NsZ49N5MdhjN1zj9NsaaF943row7"
+			]
+		}
+	},
+	"version": 1
+}

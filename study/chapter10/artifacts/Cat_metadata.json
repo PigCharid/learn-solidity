@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "utterance",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter10/abstract.sol": "Cat"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter10/abstract.sol": {
+			"keccak256": "0xfe1f2dd52069689702a6f8862a6fc0470c722f052ebb7d4ad72cd659921ccee6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b634b1f6dd554b1605bde8a270fd6372233228f39a899c11508ef80dafd763ac",
+				"dweb:/ipfs/QmTXjJ2Q9thWkD85fu1UFuSUbFK4V5cP6TFjjzmC61mnSb"
+			]
+		}
+	},
+	"version": 1
+}

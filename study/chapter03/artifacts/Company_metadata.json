@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "moneyTest",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter03/1innercompany.sol": "Company"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter03/1innercompany.sol": {
+			"keccak256": "0x70e4cb5b58466b289305b88f4e45ec68d09fdd07003f3d6323ae5074f0b9ac6c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e57d3e9ea800634215a7b005d99678b6e07315b698ed137b4117e402af96ace6",
+				"dweb:/ipfs/QmUKZvWLYTNidC2Pmf2dtwvK5oAe1zRq8n5D1JTnfTb2Vy"
+			]
+		}
+	},
+	"version": 1
+}

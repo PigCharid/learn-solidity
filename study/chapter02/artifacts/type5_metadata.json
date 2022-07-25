@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_param",
+						"type": "uint256"
+					}
+				],
+				"name": "mycal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter02/9type3.sol": "type5"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter02/9type3.sol": {
+			"keccak256": "0x6c791c76de565fabb460f34ffa5d18dd669c573650b893930fb7e11058bb0f50",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7c2641c9d31976519550e4955772fb7291d50f4d833cb80153e90b109233467a",
+				"dweb:/ipfs/QmV6tNxPvxkYdCLPQMJqjnLf6x7R4ayTznsuvP2oGYBkgd"
+			]
+		}
+	},
+	"version": 1
+}

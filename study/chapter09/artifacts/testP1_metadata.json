@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "p",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter09/position.sol": "testP1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter09/position.sol": {
+			"keccak256": "0x0704d8a01f65aa91c21567157b812f5f042a073cc37589bd6c3315de18f20d08",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6220e5973b7f00ab29dfc3fbf1c30056e1da68fe9e9fbe1bf7804cd1b34d30a7",
+				"dweb:/ipfs/QmPMctU3kSwoNCz1YQWd7tg1qPyBxXKD2tu2mjpJqLhGR5"
+			]
+		}
+	},
+	"version": 1
+}

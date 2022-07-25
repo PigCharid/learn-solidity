@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter10/extendBasicPlus.sol": "Inherited"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter10/extendBasicPlus.sol": {
+			"keccak256": "0x85a96b2c7b5ad4df06ea636b829711b52fb508909d2aa7f16d40d9b6979bd27a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://05db21af7db9efe79a8389fcb2759a4bde6a5804f0224d9c09c54b14f2141899",
+				"dweb:/ipfs/QmS3P4dpZaJ6nd2Be1gDC9HtGfZ8QiSrqHfYj2pHgRx3Tr"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,52 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testRevert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code0/2revert.sol": "test"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code0/2revert.sol": {
+			"keccak256": "0x16fbf8f317bba49fdce193b201bdecea7e12718b511ee0e5054c7f947aee5649",
+			"urls": [
+				"bzz-raw://4fdf907ea4a2f94012215421e3462446b320985a2525143d28e9787823330dd9",
+				"dweb:/ipfs/QmWCQBpWAt89J7rVDv1svFUFjzpjiuqZYoFXkRFJYb7zes"
+			]
+		}
+	},
+	"version": 1
+}

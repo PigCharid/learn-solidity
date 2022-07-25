@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "name",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "destroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter10/extendBasic.sol": "Named"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter10/extendBasic.sol": {
+			"keccak256": "0x678d2835ddd26d72f83676a737ec9cd7def1a68a300407a120f6bcc9b63fca5a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://872d64a25bb245164fcb2b484b5d05ceb86cae97150a4746b38be700764ea48a",
+				"dweb:/ipfs/QmUNm7t4cm2EJS4N6cYDNvTKoK4b4SL2vRLRxLNeTJSPsk"
+			]
+		}
+	},
+	"version": 1
+}

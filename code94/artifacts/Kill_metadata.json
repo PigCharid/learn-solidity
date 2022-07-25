@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "kill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code94/2selfdestruct.sol": "Kill"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code94/2selfdestruct.sol": {
+			"keccak256": "0xdf25819de0d7e2ecc69a8da81ff6ddfe153d256a562bda3cfa945477bb5dae42",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4889349eccb91672b7d68f85150b81038817b3af26c01dde32494c3215393d1",
+				"dweb:/ipfs/QmaFzsTXeDGGmDpqCFHx8e2w6CbhbZujH6RHtWhwCNnNbQ"
+			]
+		}
+	},
+	"version": 1
+}

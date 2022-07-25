@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Test",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter02/4fatherImp.sol": "ImportIpm"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter02/4fatherImp.sol": {
+			"keccak256": "0xe376bd9b64b0a01c40655c7bf0f950ed89c619684c5e070902e5eeef06fe43dd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5744b3820d436924a645da1f5645ab40d127f7794dae63127a9014ed1894220c",
+				"dweb:/ipfs/QmVoRhEu3LhXZVgEu7iC2dMXzJQvL4h2yhKqYmAiDmf5ga"
+			]
+		}
+	},
+	"version": 1
+}

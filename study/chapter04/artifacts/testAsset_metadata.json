@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "testAssert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter04/assert.sol": "testAsset"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter04/assert.sol": {
+			"keccak256": "0x19404951369f6a5ab5c14cd4b04ec15e337db53d70e527b626bbf1b5d8fc58a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e6899a8321bd21caf9cad3a76a22a9c9de5e4e234f0e13a86d6d63fc8c40649",
+				"dweb:/ipfs/QmdQCBYdigVYeq3MxrzF5LTNfrKyaypF37ovbFZecSbH7D"
+			]
+		}
+	},
+	"version": 1
+}

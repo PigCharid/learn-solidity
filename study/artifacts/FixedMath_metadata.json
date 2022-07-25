@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "A minimal library to do fixed point operations on UFixed256x18.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "FixedMath"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0x02c8ea36d22c5d9945c3c958898b997d4ddbe32d536f9497193e150e8c669664",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3748913b8e4fe0c6477cf4924415dc4bd58b64e016239140b46ddb83eebb1e63",
+				"dweb:/ipfs/QmdJ7ACA8V8oeduyRT6caUFUQmRcok9pQhZHny1Usmmx7n"
+			]
+		}
+	},
+	"version": 1
+}

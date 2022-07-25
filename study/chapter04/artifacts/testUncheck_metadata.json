@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testWithNoUncheck",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testWithUncheck",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter04/uncheck.sol": "testUncheck"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter04/uncheck.sol": {
+			"keccak256": "0xb51bcc1522ee5917a5e593f43f9f9e13bce12517974bb11a399c71b9db7e22ed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fdd00182c2bd02a24946bb8f83efeb87537f4b91626176cd03c09b3252021d0f",
+				"dweb:/ipfs/QmenBcDHBmpMpu9zGeenN6UeHngoK2Nt5d3NVLF9EtdHbr"
+			]
+		}
+	},
+	"version": 1
+}

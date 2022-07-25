@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testWithNoUncheck",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testWithUncheck",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"code0/1safemath.sol": "safemath"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"code0/1safemath.sol": {
+			"keccak256": "0xa4f5e2cbfdc1f6f03498982b2267b231651295ccda00e77dc9981bd9f0e38a8d",
+			"urls": [
+				"bzz-raw://13d5b57642885ca13779aad5c7eca65906e3ab38a4c8a22f45502bb5811e0a22",
+				"dweb:/ipfs/QmdMcwAbYJX9NX61yFVdMYD5s272ez476hZyJRQj4u8vM6"
+			]
+		}
+	},
+	"version": 1
+}

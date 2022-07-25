@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSpace",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "space",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chapter01/1HelloWorld.sol": "MyFirstSmartContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chapter01/1HelloWorld.sol": {
+			"keccak256": "0x9b29e52e85e0d330d136f76ec93c19fe97e7c0c398c3f10390fa42fd1cba62e8",
+			"urls": [
+				"bzz-raw://9680b13dffa13398ee48a8e3c064fb6ce379e5b96f21420dbd12cb1671cbf955",
+				"dweb:/ipfs/QmZBvFhJxKYwSW6gxoDSBjbkBJRje6RWcDpd4ZyLCoZPqk"
+			]
+		}
+	},
+	"version": 1
+}
