@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "g",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter04/assignment.sol": "testAssignment"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter04/assignment.sol": {
+			"keccak256": "0x73ee9e6711c52d4ada4380436b83362ec91d687cc687040c214460932c855cd8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bcbaa749a97867e138f0eddc14dc1cf6c1d81261c88285095be6878cb2a87fa9",
+				"dweb:/ipfs/QmcppE4xt6qXTvDjYa2i9fYTRN2W4SJ1Ff3Pe29VPG2Yzz"
+			]
+		}
+	},
+	"version": 1
+}

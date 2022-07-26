@@ -1,4 +1,12 @@
+// SPDX-License-Identifier:MIT
 pragma solidity ^0.8;
+
+ contract D{
+     uint public arg;
+     constructor(uint _arg){
+         arg = _arg;
+     }
+ }
 
 contract Create2{
     function getBytes32(uint slat)external pure returns(bytes32){
@@ -17,8 +25,8 @@ contract Create2{
         return add;
     }
     address public deployedAddr;
-    function createDSalted(bytes32 slat,uint arg)public{
-        D d = new D{slat: slat}(arg);
-        deployedAddr = address(D);
+    function createDSalted(bytes32 salt,uint arg)public{
+        D d = new D{salt: salt}(arg);
+        deployedAddr = address(d);
     }
 }

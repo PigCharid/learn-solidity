@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "t",
+				"outputs": [
+					{
+						"internalType": "contract test",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter04/ty.sol": "testTy"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter04/ty.sol": {
+			"keccak256": "0xf0b373b928a4112b8b8a8a3ceb0fb5d17f22989b7f8e285897a0b40df4cb7eb4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bff2c2b0d05d06595c2be333e1cb274c0949b2e86d01073d9a4cf698b42bd0d4",
+				"dweb:/ipfs/QmeoU6KGngPS6KcraJ1mm4J5oA58Ax9xE2dZDRVpuRcGkB"
+			]
+		}
+	},
+	"version": 1
+}

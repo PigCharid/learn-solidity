@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "c",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter03/abi.sol": "testABI2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter03/abi.sol": {
+			"keccak256": "0x5098ab85c88a4718b06a205658c0f2bef73e87868190284d519ff48d13c641a9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e4528e51bebcff23dcc9ed2dfd83ba0b633eb667318df18d0770d4b76c81b62b",
+				"dweb:/ipfs/QmY3tLVhtXac2PEAEA8TGMVey25hxHmZj4V4ajB6N4SZVz"
+			]
+		}
+	},
+	"version": 1
+}

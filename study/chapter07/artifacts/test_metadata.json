@@ -1,13 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "b",
+				"name": "b1",
 				"outputs": [
 					{
 						"internalType": "bytes",
@@ -20,7 +20,78 @@
 			},
 			{
 				"inputs": [],
-				"name": "s",
+				"name": "b2",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isEqual",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "a",
+						"type": "string"
+					}
+				],
+				"name": "str",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -45,7 +116,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter07/bytesAndString.sol": "test"
+			"study/chapter07/stirngOpt.sol": "test"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +130,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter07/bytesAndString.sol": {
-			"keccak256": "0x9c7c52a5e0fb2cfbd0ba8f745a0abbc33fedb8a649bfb2cbedf0c62983456e9e",
+		"study/chapter07/stirngOpt.sol": {
+			"keccak256": "0xad68ed9d94dcf8d65634d81063c2da5c11022ec0d56a8b903c97d59040b03a09",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://07d89ecb110ff3dc175106ee0d9d3aaad80f28a0e5af56bf66eacdab9b0424d7",
-				"dweb:/ipfs/QmPqabFWTDpzFJAJJA2W19dQHkwu5BuU5ANoiVobZbnh7c"
+				"bzz-raw://41396f65040745edb0a45dd378a597a2be9508657bf3b901c6c83008e693d87d",
+				"dweb:/ipfs/QmXM662F4zvhaby2rwwnNdHZPp8An537uJpZfZQVzrN3gp"
 			]
 		}
 	},

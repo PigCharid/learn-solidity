@@ -8,9 +8,9 @@ contract testArray{
     function arryReturn()external  returns(uint[] memory ){
         num.push(1);
         num.push(2);
-
-        uint[] memory a = num;  //如何把状态变量复刻下来
-        a[0]=5;    //值传递，并不会改变状态变量
+        //uint[] memory a = num;  //如何把状态变量复刻下来
+        uint[] storage a = num;  //如何把状态变量复刻下来
+        a[0]=5;   
         return num;
         //return a;
     }

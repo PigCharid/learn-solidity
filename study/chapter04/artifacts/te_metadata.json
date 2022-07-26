@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter04/ty.sol": "te"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter04/ty.sol": {
+			"keccak256": "0xfdb36b3e9c7570b1657de3f23707c5197224ff6654fe54c975b39c5abc3c5707",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://861854628d4694bf5d86c2ea9a4f855e93efd02e9fd7c36bbdeea90794c27864",
+				"dweb:/ipfs/QmNrGiwYjWEGUthNJ8sGt3p4RrpAsmCXw66Q1tpCUVoKdP"
+			]
+		}
+	},
+	"version": 1
+}

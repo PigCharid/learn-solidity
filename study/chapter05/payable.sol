@@ -3,7 +3,7 @@ pragma solidity ^0.8;
 
 contract PayAble{
     address payable public  owner;
-    constructor(){
+    constructor() payable{
         owner = payable(msg.sender); //这里需要用payable强制转化
     }
 

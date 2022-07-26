@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "a",
+						"name": "_arg",
 						"type": "uint256"
 					}
 				],
@@ -18,7 +18,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "x",
+				"name": "arg",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"study/chapter04/create2.sol": {
-			"keccak256": "0x541b50413874a582448316bb65aaa56e0c9905c7effdb7923e229267a0a9743d",
+			"keccak256": "0x884cc214f3e92aa1a8d80d14ed7fa46c3316a5829adf81f32a3177059d260a34",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a8831c951f4893ab10be1c8a1605d3cd1877ce6b2d6624a299d79c0f48c1c831",
-				"dweb:/ipfs/QmQUPEubwagNs1HiGaMoSp8zRyGHXjHV61Fm5qPVCtuAbE"
+				"bzz-raw://d1bf52c4de0699b3a36ffb8add5f2fa122511cf8cdc7270aa8542e7480d5c84e",
+				"dweb:/ipfs/QmSnEF3heE6Vpoax1zagwE4qxVZcJXrfvgP8hQrfsQQ1yk"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
@@ -86,11 +86,11 @@
 	},
 	"sources": {
 		"study/chapter07/bytesAndString.sol": {
-			"keccak256": "0xe1265f963102917821ad10c91c8278dac4fb0a7cc1ee288aaec75f72d5a6f839",
+			"keccak256": "0x3c6e0f77a20e519cff3a1487f6c99a318eb46c73081b9a39193cc8aee4302962",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1b1a141efc26fad0b52bae061e3c0b53d9f77ba34c7b3e5d3beaa27d0e9ad47b",
-				"dweb:/ipfs/QmYe8UExW8Ki9ofsHgSSk8jAGfUqTjvA2GSSWvYEzwtsDg"
+				"bzz-raw://ed6b0d8c0094f4f1f4b2174af52fe5ca9f039d12afecc30d43c4a9c7a09a207e",
+				"dweb:/ipfs/QmNjpqKQuzNaEmQZvqsXddqV1c4zz3ocWCLMHA5AsiUFhr"
 			]
 		}
 	},

@@ -1,24 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_test",
-						"type": "address"
-					}
-				],
-				"name": "getX",
+				"inputs": [],
+				"name": "contractaddr",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -27,37 +21,27 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_test",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_x",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
-				"name": "setX",
+				"name": "createContractObj",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_test",
-						"type": "address"
-					},
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_x",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setXandReceiveEth",
-				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -74,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter04/c2c.sol": "callContract"
+			"study/chapter04/newContractWithMoney.sol": "callContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -88,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter04/c2c.sol": {
-			"keccak256": "0x28821459b6e548fe34e3e529fce7e378e0002774bb2fe2a7d60a331ff70b6527",
+		"study/chapter04/newContractWithMoney.sol": {
+			"keccak256": "0x6b9d1c115e7432f1679354771279e5e1ec612b8bb2472aba47335069b4bd7289",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7e10fdf4dc9db3991cfde2dd846fa97dd2e2f5ac6530db91b2a28d0c7604c882",
-				"dweb:/ipfs/QmWuort8vavTUeTs9Yah4t8VwXvci8WRPJFdvZfTF5gKxa"
+				"bzz-raw://1e08831c5de5edf9f2ac45775af311511004b32a478b8c53e191562603fc1cdb",
+				"dweb:/ipfs/QmasWowA7zWjwjqYxS949EaLDfogc8wsaaSQ7dRSgdtKBq"
 			]
 		}
 	},

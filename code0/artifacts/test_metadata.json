@@ -1,13 +1,24 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "caller",
+						"type": "address"
+					}
+				],
+				"name": "errorAuth",
+				"type": "error"
+			},
+			{
 				"inputs": [],
-				"name": "testRevert",
+				"name": "testError",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -26,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code0/2revert.sol": "test"
+			"code0/3error.sol": "Test"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -40,11 +51,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"code0/2revert.sol": {
-			"keccak256": "0x16fbf8f317bba49fdce193b201bdecea7e12718b511ee0e5054c7f947aee5649",
+		"code0/3error.sol": {
+			"keccak256": "0x3823363a9e429e4d245bc8ee00b0e4fc822f64100658580dfcc654e373746649",
 			"urls": [
-				"bzz-raw://4fdf907ea4a2f94012215421e3462446b320985a2525143d28e9787823330dd9",
-				"dweb:/ipfs/QmWCQBpWAt89J7rVDv1svFUFjzpjiuqZYoFXkRFJYb7zes"
+				"bzz-raw://50b9180f003cd07d9bcdf43431b895724ef487fb8ca967f04c5423365ed29a26",
+				"dweb:/ipfs/QmarN2SXUNtGYFn68T3HAcwE7kFiTENs6CS8HhL4TDSNzW"
 			]
 		}
 	},

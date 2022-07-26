@@ -1,18 +1,31 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "equal",
+				"name": "b1",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "bytes",
 						"name": "",
-						"type": "bool"
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b2",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
 					}
 				],
 				"stateMutability": "view",
@@ -41,12 +54,12 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "s",
+				"name": "s1",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -59,7 +72,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "s1",
+				"name": "s2",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -118,11 +131,11 @@
 	},
 	"sources": {
 		"study/chapter07/stirngOpt.sol": {
-			"keccak256": "0xe11f86181be2a815972068e852dfca6af6385c01b2021032a4789308bd710d99",
+			"keccak256": "0x6ecd18e7740e22cc932cffde6c71f8011f996f1a0f143a03cedd2344ca492208",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1e0725d66122abd882719f5e02a2995b3de9ad7b94721cc3bb119a9062fa8cc0",
-				"dweb:/ipfs/QmbMV8WiE9UaLxXbKmG8FVuvCZbabpcmCC1cgYYz3dVxQ4"
+				"bzz-raw://49ceab1e2f8fcb7041062d91738c97f36974bac4222ef6bb74ae2b93dbae16fe",
+				"dweb:/ipfs/Qmb9d2uEVnLAccwTdYhRMtN87xTD4XLURkC8S7hkz34rHc"
 			]
 		}
 	},

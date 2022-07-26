@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
@@ -35,6 +35,25 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "slat",
+						"type": "uint256"
+					}
+				],
+				"name": "getBytes32",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -65,11 +84,11 @@
 	},
 	"sources": {
 		"study/chapter04/create2.sol": {
-			"keccak256": "0x541b50413874a582448316bb65aaa56e0c9905c7effdb7923e229267a0a9743d",
+			"keccak256": "0x3b3a04aead4cfb55d5d913f4bb656a70a55ac15159af2248288934f540b872b4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a8831c951f4893ab10be1c8a1605d3cd1877ce6b2d6624a299d79c0f48c1c831",
-				"dweb:/ipfs/QmQUPEubwagNs1HiGaMoSp8zRyGHXjHV61Fm5qPVCtuAbE"
+				"bzz-raw://9eecf9c071c6ce3abc37f7badb86166f6462f45ff488e304494f6f60786e440f",
+				"dweb:/ipfs/QmdPHPXtkZttJKrB2kWcweHfNnvAUYGfnp4jssbozCu7uL"
 			]
 		}
 	},

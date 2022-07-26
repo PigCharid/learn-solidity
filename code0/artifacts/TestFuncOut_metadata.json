@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.10+commit.fc410830"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code1/4outsidefunc.sol": "TestFuncOut"
+			"code0/4outsidefunc.sol": "TestFuncOut"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -52,7 +52,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"code1/4outsidefunc.sol": {
+		"code0/4outsidefunc.sol": {
 			"keccak256": "0x28b9675e9f05b2632eae6c44ed26344a825cd49f8da125dcd4fc9587aa9d96ab",
 			"urls": [
 				"bzz-raw://e0b5fc5e1ea68c765461553dfe7d53b6919c5ada81526be55bf3b6fd2599455e",
