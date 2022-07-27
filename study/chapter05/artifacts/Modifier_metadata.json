@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -85,9 +85,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter05/9modifier.sol": "Modifier"
+			"study/chapter05/modifier.sol": "Modifier"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -99,7 +99,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter05/9modifier.sol": {
+		"study/chapter05/modifier.sol": {
 			"keccak256": "0xfa9be0ae411448c7f4af3655912a411ca70b9556ac6c0f9d81f0efd6aaf97368",
 			"license": "MIT",
 			"urls": [

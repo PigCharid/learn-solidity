@@ -1,13 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getContractName",
+				"name": "str2",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -15,12 +15,8 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -36,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter02/9type3.sol": "type1"
+			"study/chapter02/7type1.sol": "type1"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -50,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"chapter02/9type3.sol": {
-			"keccak256": "0x4052fc731aa8d2ebaa843bd61ab2f59bc8a39ebd5af23d93bf6ffa4c7afdc625",
+		"study/chapter02/7type1.sol": {
+			"keccak256": "0x57448dab146daec722f7b07856f37406d4d4b0e9f763df5b175508e166786edb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://650de8cf3a92ef5674a26d955e8686f92efeff4ba06d00daa718f3807462e6cf",
-				"dweb:/ipfs/QmdE1nQ7kX2gbBsAHyA7ANHre7qBEGcjtNtxzvG3Wr8FXL"
+				"bzz-raw://04e1d083b2eee84c24ba1614c42a6bb8c67382d72ce56e559026acc6db76819d",
+				"dweb:/ipfs/QmQGzhQjWZbrfmRcKW4smeSDdQrd9G2LWnHzvopbsYNtAf"
 			]
 		}
 	},

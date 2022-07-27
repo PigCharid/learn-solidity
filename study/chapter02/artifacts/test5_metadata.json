@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter02/3literalConstant.sol": "test5"
+			"study/chapter02/3literalConstant.sol": "test5"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"chapter02/3literalConstant.sol": {
+		"study/chapter02/3literalConstant.sol": {
 			"keccak256": "0xaff462ae0e24c345834dbba12bba3fea1036b35059b82b8d08dfcc6f7e9efb7c",
 			"license": "MIT",
 			"urls": [

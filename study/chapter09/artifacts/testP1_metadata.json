@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.1+commit.df193b15"
 	},
 	"language": "Solidity",
 	"output": {
@@ -37,9 +37,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter09/position.sol": "testP1"
+			"study/chapter09/structPosition.sol": "testP1"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -51,7 +51,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter09/position.sol": {
+		"study/chapter09/structPosition.sol": {
 			"keccak256": "0x0704d8a01f65aa91c21567157b812f5f042a073cc37589bd6c3315de18f20d08",
 			"license": "MIT",
 			"urls": [

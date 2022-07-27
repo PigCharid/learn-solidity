@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter02/userAbicodeV2.sol": "user"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter02/userAbicodeV2.sol": {
+			"keccak256": "0x4f400d1d39de4a11e155560d7af975edecdeeb0637bc4544945fdbbbf646b92d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://63457e30c61f28946fed14f8b382d2a7cec3cd7568ea898def26c86af6ed26f6",
+				"dweb:/ipfs/QmQSW453gLHYUDidsHewm4bJ8e3MchoWrhejJybu77YM6f"
+			]
+		}
+	},
+	"version": 1
+}

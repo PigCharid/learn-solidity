@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "addr1",
+				"name": "by1",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "bytes1",
 						"name": "",
-						"type": "address"
+						"type": "bytes1"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "addr2",
+				"name": "str1",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -33,12 +33,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "addr3",
+				"name": "str2",
 				"outputs": [
 					{
-						"internalType": "uint160",
+						"internalType": "string",
 						"name": "",
-						"type": "uint160"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -46,12 +46,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "addr4",
+				"name": "str3",
 				"outputs": [
 					{
-						"internalType": "uint160",
+						"internalType": "string",
 						"name": "",
-						"type": "uint160"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -59,12 +59,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "addr6",
+				"name": "str4",
 				"outputs": [
 					{
-						"internalType": "bytes20",
+						"internalType": "string",
 						"name": "",
-						"type": "bytes20"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -84,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter02/4conversion.sol": "test3"
+			"study/chapter02/3literalConstant.sol": "test3"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -98,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"chapter02/4conversion.sol": {
-			"keccak256": "0x3af2339a00f070346f2529db6d43936750778217ea86d2142c9a08c29e0c6b8c",
+		"study/chapter02/3literalConstant.sol": {
+			"keccak256": "0xaff462ae0e24c345834dbba12bba3fea1036b35059b82b8d08dfcc6f7e9efb7c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d8f2c7c0011ad2dc87b6c795b46715c0eae40d876929af7b52703729cd1f1778",
-				"dweb:/ipfs/QmQ6t5KzQ4w4QoG9mKJWRx4Hryse4UBTruou7H5YFwKjvw"
+				"bzz-raw://ecb23eb8a6a98c9af31722fce917e55a7c360ceb88d5cc2f56a9ccb37ef4078c",
+				"dweb:/ipfs/QmQhCcyL1ZZvbB3xwmaVEdkYvegr41pVbp5eZn9U16wWha"
 			]
 		}
 	},

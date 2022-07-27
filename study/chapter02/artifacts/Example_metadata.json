@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter02/1struct.sol": "Example"
+			"study/chapter02/basicStruct.sol": "Example"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"chapter02/1struct.sol": {
-			"keccak256": "0xe13af048a21f60f450bbb8763ef4a411f138814aed69f4fe93695fb2b331048d",
+		"study/chapter02/basicStruct.sol": {
+			"keccak256": "0x4bb3b4deffe34f13b25590709adb7d9fdb3d36dda36b4771da496e4f9b28aed6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://609398057f0639af9ecebbda179ba2561a52964bde38b53fcf8196b634bc4166",
-				"dweb:/ipfs/QmXQkKuyhr9CfcQcmmA1KHqxFL6Jy5gcz4RGkagpFZtUji"
+				"bzz-raw://4257acfe8a51c25ced3032b21ef9e19fe2f09264ba5beb82a0bf00d776dc91ef",
+				"dweb:/ipfs/QmXQEm1Z58dpyLDU5TRaJZpBfUCNdV4ahPLG9GFwhPCX6n"
 			]
 		}
 	},

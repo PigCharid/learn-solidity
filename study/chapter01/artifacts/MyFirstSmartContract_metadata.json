@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.1+commit.df193b15"
 	},
 	"language": "Solidity",
 	"output": {
@@ -45,9 +45,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter01/1HelloWorld.sol": "MyFirstSmartContract"
+			"study/chapter01/HelloWorld.sol": "MyFirstSmartContract"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -59,11 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"chapter01/1HelloWorld.sol": {
-			"keccak256": "0x9b29e52e85e0d330d136f76ec93c19fe97e7c0c398c3f10390fa42fd1cba62e8",
+		"study/chapter01/HelloWorld.sol": {
+			"keccak256": "0x3eafc877f24fa6da91be3cbb18c2125e4b79c91ec8f921020b8d6928aae3f341",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://9680b13dffa13398ee48a8e3c064fb6ce379e5b96f21420dbd12cb1671cbf955",
-				"dweb:/ipfs/QmZBvFhJxKYwSW6gxoDSBjbkBJRje6RWcDpd4ZyLCoZPqk"
+				"bzz-raw://9d21cb8bee50c1b293c872eca53f8b28f1b3ce8be4da3f5956d0398e2a71490d",
+				"dweb:/ipfs/QmSVk6yVd24abd7GBtv5ZwkCPRt8G7txWtgWNY8mC81Ed4"
 			]
 		}
 	},

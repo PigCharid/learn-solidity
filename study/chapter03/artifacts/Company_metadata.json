@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -26,9 +26,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter03/1innercompany.sol": "Company"
+			"study/chapter03/innerCompany.sol": "Company"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -40,7 +40,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter03/1innercompany.sol": {
+		"study/chapter03/innerCompany.sol": {
 			"keccak256": "0x70e4cb5b58466b289305b88f4e45ec68d09fdd07003f3d6323ae5074f0b9ac6c",
 			"license": "MIT",
 			"urls": [

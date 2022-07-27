@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.1+commit.df193b15"
 	},
 	"language": "Solidity",
 	"output": {
@@ -40,7 +40,7 @@
 		"compilationTarget": {
 			"study/chapter10/interface.sol": "IERC20"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -53,11 +53,11 @@
 	},
 	"sources": {
 		"study/chapter10/interface.sol": {
-			"keccak256": "0x118ab119d8431530d69e4465a763efbb589950a79cd3922a4c83d67cd6586742",
+			"keccak256": "0x6cf1c69d306c7b663453db35a44d339cdafa80550685d9a4ef9cfd6de2c1d979",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://07ebfb62cbd6c6321ace2fbf57e30fffc98fb2cea67394de364eddf4437f42f0",
-				"dweb:/ipfs/QmaTFhVqmQ3x4DX6xNMkrvAMdUYHaPN8vygDkrh7MwuCQX"
+				"bzz-raw://33b4ed343909f579cf8262de462c070fc69a7e1a68f889fc610e84b9396a3a70",
+				"dweb:/ipfs/QmSEAqWBYZSxTCg6BCGswGdbMsuPUz3SzHig7zTTAvwt2S"
 			]
 		}
 	},

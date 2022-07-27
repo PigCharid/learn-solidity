@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter02/6notes.sol": "notes"
+			"study/chapter02/notes.sol": "notes"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"chapter02/6notes.sol": {
+		"study/chapter02/notes.sol": {
 			"keccak256": "0x2cda10bdac73932796db59d6f89a6ea21f41835a934dcf5af432af4309ca850a",
 			"license": "MIT",
 			"urls": [

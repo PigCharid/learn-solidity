@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -32,9 +32,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter04/1innerfunc.sol": "ArrayExample"
+			"study/chapter05/innerFunc.sol": "ArrayExample"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter04/1innerfunc.sol": {
+		"study/chapter05/innerFunc.sol": {
 			"keccak256": "0x42275a10725e41abc3124adfc89ac13ce789a2804850421caf3369fce2bf1a0a",
 			"license": "MIT",
 			"urls": [

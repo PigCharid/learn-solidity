@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "accounts",
+				"outputs": [
+					{
+						"internalType": "contract Account",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "createAccount",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter11/contractFactory.sol": "AccountFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter11/contractFactory.sol": {
+			"keccak256": "0x5c57ee3791868f4538439800fdb3c3830ca17be37a05a25919cd797255fafe24",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3377e02b063331fb473696fcf9f1847f5d6e2a67baf7e6f1b9e3f14bccbfe34a",
+				"dweb:/ipfs/QmYSXyrAbowRzL8YEbbSoo3VEu6qnqVJbd8CNStXsvY28L"
+			]
+		}
+	},
+	"version": 1
+}

@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter02/9type3.sol": "type3"
+			"study/chapter02/9type3.sol": "type3"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,7 +72,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"chapter02/9type3.sol": {
+		"study/chapter02/9type3.sol": {
 			"keccak256": "0x6c791c76de565fabb460f34ffa5d18dd669c573650b893930fb7e11058bb0f50",
 			"license": "MIT",
 			"urls": [

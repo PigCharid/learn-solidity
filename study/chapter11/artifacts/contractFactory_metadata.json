@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"study/chapter11/contractFactory.sol": "contractFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"study/chapter11/contractFactory.sol": {
+			"keccak256": "0x4dd4d60689d8d6efa05c20501b10237da320aeae1887ddd03302b112700b31ce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://df584ebfd5353654cf753ae402ed4c7d90c93d066659cfd964138a498c9f176e",
+				"dweb:/ipfs/QmZE2wiCfG9zeLP9H45JtuTcDX4Z8Rp5qm4W9dqbtaargD"
+			]
+		}
+	},
+	"version": 1
+}

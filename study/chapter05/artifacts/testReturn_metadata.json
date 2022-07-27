@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -80,9 +80,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter05/8returns.sol": "testReturn"
+			"study/chapter05/returns.sol": "testReturn"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -94,7 +94,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter05/8returns.sol": {
+		"study/chapter05/returns.sol": {
 			"keccak256": "0xa823e3e98603f3f855ee1d3b153e767862eae469ea7928dfc0e525afcdfbb0a0",
 			"license": "MIT",
 			"urls": [

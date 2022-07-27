@@ -1,35 +1,34 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.1+commit.df193b15"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
+				"inputs": [],
+				"name": "funA",
+				"outputs": [
 					{
-						"indexed": false,
 						"internalType": "string",
-						"name": "message",
+						"name": "",
 						"type": "string"
 					}
 				],
-				"name": "Log",
-				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "bar",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "foo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "funAB",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -46,9 +45,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter10/useFather.sol": "B"
+			"study/chapter10/extendBasic.sol": "B"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -60,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter10/useFather.sol": {
-			"keccak256": "0x99419013cebaf97d754687b924d70054a984d28e65323e77b8b069701086d6bd",
+		"study/chapter10/extendBasic.sol": {
+			"keccak256": "0x68243d14bb5a5714ec69621089bd12d74724896ed5f1de4275c0cf4a6893270c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b1e0dd0693d0ef402078bc17687e4c2bad6e34da60abe9e4e9b11aedd172f30a",
-				"dweb:/ipfs/QmWKYdQYcCZkdojNDi44dcS6mMPVgkKbgoAFjqoZEnTaMp"
+				"bzz-raw://75e2255379813086ac63191fc1dd390c2a468cf504552424ab4f589d7261f54b",
+				"dweb:/ipfs/QmQrNGt3zGQ9zp5KTFGRtnmpQE5JL53DZeLoNDgA7ED9XF"
 			]
 		}
 	},

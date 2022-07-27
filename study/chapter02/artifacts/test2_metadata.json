@@ -4,112 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "a",
-				"outputs": [
-					{
-						"internalType": "uint32",
-						"name": "",
-						"type": "uint32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "a1",
-				"outputs": [
-					{
-						"internalType": "uint16",
-						"name": "",
-						"type": "uint16"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "a2",
-				"outputs": [
-					{
-						"internalType": "bytes2",
-						"name": "",
-						"type": "bytes2"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "b",
-				"outputs": [
-					{
-						"internalType": "uint16",
-						"name": "",
-						"type": "uint16"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "b1",
-				"outputs": [
-					{
-						"internalType": "uint32",
-						"name": "",
-						"type": "uint32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "b2",
-				"outputs": [
-					{
-						"internalType": "bytes1",
-						"name": "",
-						"type": "bytes1"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "x",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "y",
-				"outputs": [
-					{
-						"internalType": "int8",
-						"name": "",
-						"type": "int8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -123,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter02/4conversion.sol": "test2"
+			"study/chapter02/5multipleContract.sol": "test2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -137,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"chapter02/4conversion.sol": {
-			"keccak256": "0x3af2339a00f070346f2529db6d43936750778217ea86d2142c9a08c29e0c6b8c",
+		"study/chapter02/5multipleContract.sol": {
+			"keccak256": "0x5348472bdac05838450a9ed7ca6ee8a7eee6b95c31efebb7570500e2d09be028",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d8f2c7c0011ad2dc87b6c795b46715c0eae40d876929af7b52703729cd1f1778",
-				"dweb:/ipfs/QmQ6t5KzQ4w4QoG9mKJWRx4Hryse4UBTruou7H5YFwKjvw"
+				"bzz-raw://2a967ce5a06c3cae6e7277e599f7050ac4fc331d4889a2aeab1ff1eff66b7ddb",
+				"dweb:/ipfs/QmWa5jvn4DzmiqRACLvx5Aqu1yPMk69ZyjsfBukUGTBhhA"
 			]
 		}
 	},

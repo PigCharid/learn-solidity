@@ -1,34 +1,21 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.1+commit.df193b15"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "funA",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "funAB",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,9 +32,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter10/multipulExtend.sol": "C"
+			"study/chapter10/usingfor.sol": "C"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -59,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter10/multipulExtend.sol": {
-			"keccak256": "0x34acbc9f91e44bfb0e8000052a7a32b87a4389068be18ef65c6daa93ae86f774",
+		"study/chapter10/usingfor.sol": {
+			"keccak256": "0x26ee5de9f8814262269b0c115592d01b090bda2b9a75db8b967741bc8f2b005b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://df94b1aef7b6e6d74d1c9f61b9931137a030ff1232af7790c50452da0db1af54",
-				"dweb:/ipfs/QmRA3bTZJvM8YkQLQo3RMjFWHRMGs3G17gkPe29PiYX2pD"
+				"bzz-raw://f1b1c7716e7c78a75cc5fe602e629cc91f67e42b453de26ab8dd00ae2945cf8a",
+				"dweb:/ipfs/QmcJRthsauk1PQMWYVjxdy9MCMkZemnS2uXyaZ7VJJkogT"
 			]
 		}
 	},

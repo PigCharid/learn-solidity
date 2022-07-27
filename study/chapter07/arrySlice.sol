@@ -2,7 +2,7 @@
 pragma solidity ^0.8;
 
 contract testArrySlice{
-    /// 被当前合约管理的 客户端合约地址
+    //被当前合约管理的 客户端合约地址
     address client;
 
     constructor(address client_) {
@@ -10,7 +10,7 @@ contract testArrySlice{
     }
     bytes public b = abi.encodePacked("setOwner(address)",0x5B38Da6a701c568545dCfcB03FcB875f56beddC4);
 
-    /// 在进行参数验证之后，转发到由client实现的 "setOwner(address)"
+    // 在进行参数验证之后，转发到由client实现的 "setOwner(address)"
     function forward(bytes calldata payload) external {
         bytes4 sig = bytes4(payload[:4]);
 

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -71,9 +71,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter07/byte123.sol": "bytes123"
+			"study/chapter07/byte.sol": "bytes123"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -85,7 +85,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter07/byte123.sol": {
+		"study/chapter07/byte.sol": {
 			"keccak256": "0x6da8d2ddd72d21747e278920f4b352bfec6e2d4027f41ce04875092b75098247",
 			"license": "MIT",
 			"urls": [

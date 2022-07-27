@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -78,9 +78,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter04/7variableIschanged.sol": "TestVC"
+			"study/chapter05/7variableIschanged.sol": "TestVC"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -92,7 +92,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter04/7variableIschanged.sol": {
+		"study/chapter05/7variableIschanged.sol": {
 			"keccak256": "0xbaf3d55d84af112a074c5d4edecdb886ce9d1ed32839207e55baf052e41a0940",
 			"license": "MIT",
 			"urls": [

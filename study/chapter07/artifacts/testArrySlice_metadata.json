@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -50,11 +50,7 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {
-				"forward(bytes)": {
-					"notice": "在进行参数验证之后，转发到由client实现的 \"setOwner(address)\""
-				}
-			},
+			"methods": {},
 			"version": 1
 		}
 	},
@@ -62,7 +58,7 @@
 		"compilationTarget": {
 			"study/chapter07/arrySlice.sol": "testArrySlice"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -75,11 +71,11 @@
 	},
 	"sources": {
 		"study/chapter07/arrySlice.sol": {
-			"keccak256": "0xb223fa4b1a97192eacfa789ec247407dcc0b1605a2b07e81b7f0ed88c7c13048",
+			"keccak256": "0x91d62b9c52ecfdd350ebdb39cc39927eaf2ccec93cc0f967e7098020b65f1874",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://63336461c33038f7c8ff472767f7fb7407f9df477ff20960fb1838f0b9b2f7b1",
-				"dweb:/ipfs/QmP5fqhRqvSeaUkmvxEyWEMgFQ4QFkosoiSHWG3Me6s99S"
+				"bzz-raw://a6c60fc55ef9214dee814be496dd15ff15d8abd178f2164544e69bf015917369",
+				"dweb:/ipfs/QmYRhiowUVUwUWo55jY95pP9m2GfsEGqDGT5qJRqHaQrjF"
 			]
 		}
 	},

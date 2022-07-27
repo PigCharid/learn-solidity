@@ -394,7 +394,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter02/4testImport3.sol": "testImport5"
+			"study/chapter02/testImport3.sol": "testImport5"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -480,7 +480,7 @@
 				"dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy"
 			]
 		},
-		"chapter02/4testImport3.sol": {
+		"study/chapter02/testImport3.sol": {
 			"keccak256": "0x6c147ba1fe194f1273cbff24e2761c688b292ddd6e81aba5aa16aa3ec2405920",
 			"license": "MIT",
 			"urls": [

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -58,9 +58,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter04/3funcvisibility.sol": "TestFV"
+			"study/chapter05/3funcvisibility.sol": "TestFV"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -72,7 +72,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter04/3funcvisibility.sol": {
+		"study/chapter05/3funcvisibility.sol": {
 			"keccak256": "0xca5b51cc27a50e05f7af177f61cc944d475baf618fd70f002dd54dfba5ab0484",
 			"license": "MIT",
 			"urls": [

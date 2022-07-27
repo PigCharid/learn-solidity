@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -45,9 +45,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter04/2vaiablevisibility.sol": "TestVV"
+			"study/chapter05/vaiableVisibility.sol": "TestVV"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter04/2vaiablevisibility.sol": {
+		"study/chapter05/vaiableVisibility.sol": {
 			"keccak256": "0xabebc41ced7526bfb53a82f1d6c3d1e6726c4a08b58f8461e1b447512d086cc2",
 			"license": "MIT",
 			"urls": [

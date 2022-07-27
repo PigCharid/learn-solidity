@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,31 +8,27 @@
 			{
 				"inputs": [],
 				"name": "f",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					},
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "g",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -49,9 +45,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter04/assignment.sol": "testAssignment"
+			"study/chapter04/complexAssignment.sol": "testAssignment"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -63,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter04/assignment.sol": {
-			"keccak256": "0x73ee9e6711c52d4ada4380436b83362ec91d687cc687040c214460932c855cd8",
+		"study/chapter04/complexAssignment.sol": {
+			"keccak256": "0x7b4c91cd401d79e4b012dbb53c75ed0b18e759725ae3a09b702d017d50ae4022",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bcbaa749a97867e138f0eddc14dc1cf6c1d81261c88285095be6878cb2a87fa9",
-				"dweb:/ipfs/QmcppE4xt6qXTvDjYa2i9fYTRN2W4SJ1Ff3Pe29VPG2Yzz"
+				"bzz-raw://cd2f5351ce76819357f6dfaedce19a54c39365c7188ea41f55b4b3cf33c3643c",
+				"dweb:/ipfs/Qmd7QLsvonLrPHZLoXGpLedACF4rD7PKEk9gVh45EUGRzs"
 			]
 		}
 	},

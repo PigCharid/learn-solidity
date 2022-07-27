@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -32,9 +32,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter02/4fatherImp.sol": "FatherImp"
+			"study/chapter02/fatherImp.sol": "FatherImp"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"chapter02/4fatherImp.sol": {
+		"study/chapter02/fatherImp.sol": {
 			"keccak256": "0x272a1e5fc50c8beaaf0a9a354c5257f11fd12f75fa000cf40251715c0d199efb",
 			"license": "MIT",
 			"urls": [

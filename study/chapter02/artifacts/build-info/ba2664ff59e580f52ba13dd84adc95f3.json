@@ -1,0 +1,319 @@
+{
+	"id": "ba2664ff59e580f52ba13dd84adc95f3",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.0",
+	"solcLongVersion": "0.8.0+commit.c7dfd78e",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"study/chapter02/userAbicodeV2.sol": {
+				"content": "// SPDX-License-Identifier:MIT\npragma solidity 0.8;  \n\ncontract compilerVersion{\n    //合约实现\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"study/chapter02/userAbicodeV2.sol": {
+				"compilerVersion": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"study/chapter02/userAbicodeV2.sol\":55:101  contract compilerVersion{... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"study/chapter02/userAbicodeV2.sol\":55:101  contract compilerVersion{... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa264697066735822122016338a0e0a854d8667d406874c85c3075fd7397847f14db5a264c2cf11343e7c64736f6c63430008000033\n}\n",
+						"bytecode": {
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122016338a0e0a854d8667d406874c85c3075fd7397847f14db5a264c2cf11343e7c64736f6c63430008000033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 AND CALLER DUP11 0xE EXP DUP6 0x4D DUP7 PUSH8 0xD406874C85C3075F 0xD7 CODECOPY PUSH25 0x47F14DB5A264C2CF11343E7C64736F6C634300080000330000 ",
+							"sourceMap": "55:46:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea264697066735822122016338a0e0a854d8667d406874c85c3075fd7397847f14db5a264c2cf11343e7c64736f6c63430008000033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 AND CALLER DUP11 0xE EXP DUP6 0x4D DUP7 PUSH8 0xD406874C85C3075F 0xD7 CODECOPY PUSH25 0x47F14DB5A264C2CF11343E7C64736F6C634300080000330000 ",
+							"sourceMap": "55:46:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 55,
+									"end": 101,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a264697066735822122016338a0e0a854d8667d406874c85c3075fd7397847f14db5a264c2cf11343e7c64736f6c63430008000033",
+									".code": [
+										{
+											"begin": 55,
+											"end": 101,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 55,
+											"end": 101,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 55,
+											"end": 101,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 55,
+											"end": 101,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 55,
+											"end": 101,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 55,
+											"end": 101,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"study/chapter02/userAbicodeV2.sol\":\"compilerVersion\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"study/chapter02/userAbicodeV2.sol\":{\"keccak256\":\"0x844ef752d8b7997f5aec6bf7d2765f55d99b974a4c58342d7afce7ef9b40e541\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://130ec6ef24e5b4510a3cd3fe86b1c34da3a281686523a0bd5fdcfd9e2be46b4d\",\"dweb:/ipfs/QmPZSThahRg1Fg6dyoXW7YDWti66dreAWYD8BR4sBmp2un\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"study/chapter02/userAbicodeV2.sol": {
+				"ast": {
+					"absolutePath": "study/chapter02/userAbicodeV2.sol",
+					"exportedSymbols": {
+						"compilerVersion": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "31:20:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "compilerVersion",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "55:46:0"
+						}
+					],
+					"src": "31:70:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

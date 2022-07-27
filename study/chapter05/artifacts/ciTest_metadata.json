@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -54,9 +54,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter04/6constantANDimmutable.sol": "ciTest"
+			"study/chapter05/6constantANDimmutable.sol": "ciTest"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -68,7 +68,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter04/6constantANDimmutable.sol": {
+		"study/chapter05/6constantANDimmutable.sol": {
 			"keccak256": "0x37ac7c90493c87c78263cff130cb0ed1a41218ad0a201120f57ec23d4f865bfe",
 			"license": "MIT",
 			"urls": [

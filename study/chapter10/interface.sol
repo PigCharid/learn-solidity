@@ -8,7 +8,7 @@ interface IERC20{
 
 interface IERC20Plus is IERC20{
     function totalSupply() external view returns (uint256);
-    function balanceOf(address account) external view returns (uint256);
+    function balanceOf(address account) external override view returns (uint256);
 }
 interface IERC20Other{
     
@@ -17,7 +17,7 @@ interface IERC20Other{
 
 
 contract MyERC20 is IERC20Plus,IERC20Other{
-    function totalSupply()external  view returns(uint256){
+    function totalSupply()external override view returns(uint256){
 
     }
     function balanceOf(address account) external override(IERC20Plus,IERC20Other) view returns (uint256){
