@@ -1,21 +1,3 @@
-记得看能不能把solidity的源码找出来看看
-
-Solidity8.0和之前版本的比较
-
-```
-safa math
-
-自定义错误
-
-函数在合约之外
-
-起别名引入
-
-create2
-```
-
-
-
 # 第一章：简介
 
 ## 1、基本概念
@@ -192,7 +174,29 @@ pragma solidity ^0.8;
 pragma abicoder v2;
 
 contract useAbicodeV2{
-    //合约实现
+    struct People{
+        string name;
+        uint  age;
+    }    
+
+    People[] public peoples;
+
+    function _setAllPeopleName()public view returns(People[] memory p){
+        p = peoples;
+        for(uint i = 0;i<p.length;i++){
+            p[i].name="metamarvel";
+        }
+    }
+
+    function addPeople()public {
+        People memory a = People("wp",25);
+        People memory b = People("zt",24);
+        peoples.push(a);
+        peoples.push(b);
+    }
+     function getPeople()public view returns(People[] memory p){
+        return peoples;
+    } 
 }
 ```
 
@@ -1753,7 +1757,15 @@ contract error{
 
 ### 4.2try/catch
 
-**`try`后面只能接外部函数调用或者是创建合约`new ContractName`的表达式**，并且花括号里面的错误会立即回滚，当花括号调用合约以外的函数（或者以外部调用的形式调用函数，如用 `this`）出现错不会造成当前合约回滚。用 `try` 尝试调用的外部函数如果需要返回参数，就要在 `returns` 后面声明返回参数的类型，如果外部调用执行成功就可以获取返回值，继续执行花括号内的语句，花括号的语句都完全成功了，就会跳过后面的 `catch`；但是如果失败就会根据错误类型跳转到对应的 `catch` 里面。如下面的代码
+**`try`后面只能接外部函数调用或者是创建合约`new ContractName`的表达式**
+
+catch的部分分成3块
+
+​		revert和require类型的报错会被Error捕获
+
+​		异常和assert会被Pannic捕获
+
+​		自定义的错误及无返回提示的底层错误会走到最后
 
 `ty.sol`
 
@@ -1761,36 +1773,39 @@ contract error{
 // SPDX-License-Identifier:MIT
 pragma solidity 0.8;
 
-//接口类型，后面会介绍，如果熟悉 Golang 的接口则很容易理解。
+//
 contract DataFeed { 
     // function add(uint a,uint b) external pure returns (uint value){
     //     return a/b;
     // }
+    error myError();
     function add(uint a,uint b) external pure returns (uint value){
-        return a+b;
+        // revert("1");
+        return a/b;
     }
     
 }
 contract FeedConsumer {
     DataFeed feed = new DataFeed();//从接口创建合约
-    uint errorCount;//记录错误次数
-    function testAdd() public returns (uint value, bool success) {
+    uint public errorCount;//记录错误次数
+    function testAdd() public returns (uint _value, bool _success) {
         try feed.add(5,0) returns (uint v) {//尝试调用 外部的 getData 函数，执行成功就获得返回值，然后继续执行花括号内的内容
             return (v, true);
         } catch Error(string memory /*reason*/) {
-            // 执行 revert 语句造成的回滚，返回错误提示信息
-            errorCount++;
+            // 通过revert发起的错误
+            errorCount = 2;
             return (100, false);
         } catch Panic(uint /*errorCode*/) {
-            // Panic类型错误。
-            errorCount++;
+            // 异常类型的错误会走到这里
+            errorCount = 1;
             return (200, false);
         } catch (bytes memory /*lowLevelData*/) {
-            // 无返回提示的底层错误。
-            errorCount++;
+            // 无返回提示的底层错误，自定义错误的话会走到这里
+            errorCount=8;
             return (300, false);
         }
     }
+   
 }
 ```
 

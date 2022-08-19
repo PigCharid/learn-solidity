@@ -44,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter11/selfDestruct.sol": "selfDestruct"
+			"contract/chapter11/selfDestruct.sol": "selfDestruct"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -58,12 +58,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter11/selfDestruct.sol": {
-			"keccak256": "0x0a4c688603d3d15669b981e3a883de44161ebfe52538aa54238ff621b9d85ade",
+		"contract/chapter11/selfDestruct.sol": {
+			"keccak256": "0x6eec55df383b424c6cdbae3fdc1868e363b8cae191991f040f2ff2d7f0d48e1c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a9b0b195655ed4b0e077ad53bbcf7e0c8ade8b1cda33067c2c84dd4a79696431",
-				"dweb:/ipfs/QmWJ9jvo6SHGeetYULHJRdt4LWUvppQUviB1F3PdcoseBn"
+				"bzz-raw://b0271c8c88f97e43a51b5a170be246e8ace0c1c877588fb0a760682ea2cd1579",
+				"dweb:/ipfs/Qmbsb81k3zSfKLwG8482ZE9UhnsKzXpKZVx8uyENMEgAGP"
 			]
 		}
 	},

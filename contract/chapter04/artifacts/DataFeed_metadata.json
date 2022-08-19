@@ -1,10 +1,15 @@
 {
 	"compiler": {
-		"version": "0.8.6+commit.11564f7e"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [],
+				"name": "myError",
+				"type": "error"
+			},
 			{
 				"inputs": [
 					{
@@ -43,9 +48,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"study/chapter04/ty.sol": "DataFeed"
+			"contract/chapter04/ty.sol": "DataFeed"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -57,12 +62,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"study/chapter04/ty.sol": {
-			"keccak256": "0xa57be986a85e8c6299377b49892634cf15a6f1fb5184014fbf72b28a960ec4c8",
+		"contract/chapter04/ty.sol": {
+			"keccak256": "0x6d86db578c4b1665cae167f65ba47e5360ea1c064330c38139897cf2a6141682",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b875ba1b5c875764e554f6e262be8143577cb153ca81803ca7c5eab57db1696a",
-				"dweb:/ipfs/QmZNUD4wc3StDYGp1iQ7Hv7th1ckNoa3XpvsDwzFJ1QRL4"
+				"bzz-raw://1f57e53934bfd20e36e40d67a0a8c3577a8d495b63233141bac02f09b768da5d",
+				"dweb:/ipfs/QmV4TMkbYoiz4ibxDzoJ5rYh9cXJ1ZhdjmrUPRzkKmD5CX"
 			]
 		}
 	},

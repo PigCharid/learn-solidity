@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "kill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/call&delegatecall.sol": "selfDestruct"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/call&delegatecall.sol": {
+			"keccak256": "0x6eec55df383b424c6cdbae3fdc1868e363b8cae191991f040f2ff2d7f0d48e1c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b0271c8c88f97e43a51b5a170be246e8ace0c1c877588fb0a760682ea2cd1579",
+				"dweb:/ipfs/Qmbsb81k3zSfKLwG8482ZE9UhnsKzXpKZVx8uyENMEgAGP"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,207 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "InvalidState",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "OnlyBuyer",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "OnlySeller",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "ValueNotEven",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "Aborted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "ItemReceived",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "PurchaseConfirmed",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "SellerRefunded",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "abort",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "buyer",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "confirmPurchase",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "confirmReceived",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "refundSeller",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "seller",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum Purchase.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"errors": {
+				"InvalidState()": [
+					{
+						"notice": "The function cannot be called at the current state."
+					}
+				],
+				"OnlyBuyer()": [
+					{
+						"notice": "买方特权"
+					}
+				],
+				"OnlySeller()": [
+					{
+						"notice": "卖方调用"
+					}
+				],
+				"ValueNotEven()": [
+					{
+						"notice": "The provided value has to be even."
+					}
+				]
+			},
+			"kind": "user",
+			"methods": {
+				"abort()": {
+					"notice": "中止购买并回收以太币。 只能在合约被锁定之前由卖家调用。"
+				},
+				"confirmPurchase()": {
+					"notice": "买家确认购买。 交易必须包含 `2 * value` 个以太币。 以太币会被锁定，直到 confirmReceived 被调用。"
+				},
+				"refundSeller()": {
+					"notice": "This function refunds the seller, i.e. pays back the locked funds of the seller."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/Purchase.sol": "Purchase"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/Purchase.sol": {
+			"keccak256": "0x087db221e3080658e502325a0f6c09f17a8f44dba51922a1396eef82a536079d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://14694ae6b5e215c5e3b6100bf5d399195d60a24a3f9fd52234f0e7e0ea5bf12f",
+				"dweb:/ipfs/QmXihfCTKM9FxpWaHohJ5TocKnSDbXFBANAyZ7orAg96Ph"
+			]
+		}
+	},
+	"version": 1
+}
